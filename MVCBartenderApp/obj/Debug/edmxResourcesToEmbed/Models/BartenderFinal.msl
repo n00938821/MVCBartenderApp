@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BartenderMVCModelStoreContainer" CdmEntityContainer="BartenderMVCEntities">
+    <EntitySetMapping Name="OrderMenus">
+      <EntityTypeMapping TypeName="BartenderMVCModel.OrderMenu">
+        <MappingFragment StoreEntitySet="OrderMenu">
+          <ScalarProperty Name="OrderMenuId" ColumnName="OrderMenuId" />
+          <ScalarProperty Name="OrderName" ColumnName="OrderName" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Drink" ColumnName="Drink" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
